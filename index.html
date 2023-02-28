@@ -2,13 +2,449 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="images/Profile_Pic.jpg">
+    <!-- <link rel="stylesheet" href="gitcalendar.css"/> -->
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/gitStatsAndCalendar.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <title>Abhinav Mourya</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
 </head>
 <body>
-    Hello world, added portfolio page.
+<div class="banner">
+    <nav class="navbar">
+        <div class="content">
+    
+          <div class="logo">
+            <img id="home_page_backImg" src="images/Profile_Pic.jpg" alt="">
+            <a href="#">Abhinav</a>
+          </div>
+    
+          <ul class="menu-list">
+            <div class="icon cancel-btn">
+              <i class="fas fa-times"></i>
+            </div>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#to_stop_for_skills">Skills</a></li>
+            <li><a href="#projects_top_section">Projects</a></li>
+            <li><a href="#contact_top_section">Contact</a></li>
+            <li id="resumeBtnOnNavbar"><a href="Abhinav_Mourya_Resume.pdf" download>Resume <i class='far fa-arrow-alt-circle-down'></i></a></li>
+          </ul>
+          
+          <div class="icon menu-btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+    </nav>
 
-    Added one more line to confirm Updation
+    <div class="contentBelowNav">
+        <div class="innerContent">
+            <h3>Hi, I am Abhinav Mourya,</h3>
+            <h4>A Java Backend Developer</h4>
+            <div id="HomePageImg">
+                <img src="images/Profile_Pic.jpg" alt="">
+            </div>
+            <p>A dedicated and detail-oriented, aspiring Back-end
+                Developer, adept at creating robust and scalable
+                applications using Java and SpringBoot. Effective remote
+                collaborator with a passion to create good software who
+                is looking forward to a successful career as a Java back-
+                end developer.</p>
+                        
+            <div id="outerIconContainer">
+                <div id="iconHolder">
+                    <ul>
+                        <!-- <li class="socialIcons"><a href="#"><i class="fa fa-facebook"></i></a></li> -->
+                        <!-- <li class="socialIcons"><a href="#"><i class="fa fa-twitter"></i></a></li> -->
+                        <li class="socialIcons"><a href="https://www.linkedin.com/in/abhinav-mourya/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="socialIcons"><a href="https://github.com/Abhinav-Mourya" target="_blank"><i class="fa fa-github"></i></a></li>
+                        <li class="socialIcons"><a href="https://www.quora.com/profile/Abhinav-Mourya" target="_blank"><i class="fa fa-quora"></i></a></li>
+                    </ul>
+                </div>
+                <div id="resumeButtons">
+                    <div>
+                        <button class="resumeButton" type="button"><span></span>View Resume</button>
+                        <!-- <button type="button"><span></span>Subscribe</button> -->
+                    </div>
+                    <div>
+                        <!-- <button class="resumeDownloadButton" type="button"><span></span><a href="/images/myw3schoolsimage.jpg" download>Download Resume</a></button> -->
+                        <a href="Abhinav_Mourya_Resume.pdf" download><button class="resumeButton" type="button"><span></span>Download Resume</button></a>
+                        <!-- <button type="button"><span></span>Subscribe</button> -->
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Skills -->
+<div id="to_stop_for_skills"></div>
+<section class="class_skills" id="skills">
+    <div class="section_container">
+        <h2>SKILLS</h2>
+        <div id="skills_div">
+            <div id="frontend_skills">
+                <div id="frontend_div1_container">
+                    <div id="frontend_div1">
+                        <h3 id="frontend_title">Frontend</h3>
+                    </div>
+                </div>
+                <div id="frontend_div2">
+                    <div class="tech_cards">
+                        <div class="outer_icon_div">
+                            <img src="Skills_Icons/icons8-html-5-48.png" alt="">
+                        </div>
+                        <h3>HTML5</h3>
+                    </div>
+                    <div class="tech_cards">
+                        <div class="outer_icon_div">
+                            <img src="Skills_Icons/icons8-css3-48.png" alt="">
+                        </div>
+                        <h3>CSS3</h3>
+                    </div>
+                    <div class="tech_cards">
+                        <div class="outer_icon_div">
+                            <img src="Skills_Icons/icons8-javascript-48.png" alt="">
+                        </div>
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="backend_skills">
+                <div id="backend_div1_container">
+                    <div id="backend_div1">
+                        <h3>Backend</h3>
+                    </div>
+                </div>
+                
+                <div id="backend_div2">
+                    <div class="tech_cards">
+                        <div class="outer_icon_div">
+                            <img src="Skills_Icons/icons8-java-48.png" alt="">
+                        </div>
+                        <h3>Java</h3>
+                    </div>
+                    <div class="tech_cards">
+                        <div class="outer_icon_div">
+                            <img src="Skills_Icons/icons8-spring-logo-48.png" alt="">
+                        </div>
+                        <h3>Spring</h3>
+                    </div>
+                    <div class="tech_cards">
+                        <div class="outer_icon_div">
+                            <img src="Skills_Icons/hibernate_logo_whitebkg_stacked_256px.png" alt="">
+                        </div>
+                        <h3>Hibernate</h3>
+                    </div>
+                    <div class="tech_cards">
+                        <div class="outer_icon_div">
+                            <img src="Skills_Icons/icons8-mysql-logo-48 (1).png" alt="">
+                        </div>
+                        <h3>MySQL</h3>
+                    </div>
+                    <div class="tech_cards">
+                        <div class="outer_icon_div">
+                            <img src="https://maven.apache.org/images/maven-logo-black-on-white.png" alt="">
+                        </div>
+                        <h3>MAVEN</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="tools_title">
+            <h3 id="tools_title_div">Tools</h3>
+        </div>
+
+        <div id="tools_div_container">
+            <div id="tools_div">
+                <div class="individual_tool">
+                    <div>
+                        <img src="Skills_Icons/icons8-github-48.png" alt="">
+                    </div>
+                    <h3>GitHub</h3>
+                </div>
+                <div class="individual_tool">
+                    <div>
+                        <img src="Skills_Icons/icons8-git-48.png" alt="">
+                    </div>
+                    <h3>Git</h3>
+                </div>
+                <div class="individual_tool">
+                    <div>
+                        <img src="Skills_Icons/netlify_logo.png" alt="">
+                    </div>
+                    <h3>Netlify</h3>
+                </div>
+                <div class="individual_tool">
+                    <div>
+                        <img src="Skills_Icons/Postman.png" alt="">
+                    </div>
+                    <h3>Postman</h3>
+                </div>
+                <div class="individual_tool">
+                    <div>
+                        <img src="Skills_Icons/Swagger_logo.png" alt="">
+                    </div>
+                    <h3>Swagger</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects and Stats -->
+<div id="projects_top_section"></div>
+<section class="class_projects" id="projects">
+    <div class="section_container" id="projects_section_container">
+        <h2>PROJECTS</h2>
+        <div id="projectCards_1_2">
+            <div id="myhours_clone">
+                <h1 class="project_title" data-aos="fade-right">MyHours Clone</h1>
+                <div>
+                    <div class="project_img_div">
+                        <img class="project_img" src="images/myhours_ss.jpeg" alt="">
+                    </div>
+                    <div>
+                        <p class="project_desc" data-aos="flip-up">My Hours is a cloud-based time tracking solution best suited for small teams and freelancers. Users can start time tracking on unlimited projects and tasks in seconds, generate insightful reports, and create invoices.</p>
+                        <h4 class="tech_stack" data-aos="flip-up">Tech Stack: HTML5 | CSS3 | JavaScript</h4>
+                        <p class="members_days" data-aos="flip-up">An individual project developed within 4 days.</p>
+                    </div>
+                    <div class="project_buttons">
+                        <button class="source_code_btn" id="myhours_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                        <button class="live_btn" id="myhours_live_btn">Live <i class="fa fa-play-circle-o"></i></button>
+                    </div>
+                </div>
+            </div>
+        
+
+
+
+
+            <div id="wrike_clone">
+                <h1 class="project_title" data-aos="fade-right">wrike Clone</h1>
+                <div>
+                    <div class="project_img_div">
+                        <img class="project_img" src="images/wrike_ss.jpeg" alt="">
+                    </div>
+                    <div data-aos="flip-up">
+                        <p class="project_desc">Your all-in-one platform to manage projects, organize work, enhance collaboration and accelerate execution across all departments.</p>
+                        <h4 class="tech_stack">Tech Stack: HTML5 | CSS3 | JavaScript</h4>
+                        <p class="members_days">A collaborative project developed by a 5-member team within 4 days.</p>
+                    </div>
+        
+                    <div class="project_buttons">
+                        <button class="source_code_btn" id="wrike_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                        <button class="live_btn" id="wrike_live_btn">Live <i class="fa fa-play-circle-o"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div id="projectCards_1_2">
+            <div id="hotstar_clone">
+                <h1 class="project_title" data-aos="fade-right">Hotstar Clone</h1>
+                <div>
+                    <div class="project_img_div">
+                        <img class="project_img" src="images/hotstar_ss.jpeg" alt="">
+                    </div>
+                    <div>
+                        <p class="project_desc" data-aos="flip-up">Disney+ Hotstar is an online video streaming platform owned by Novi Digital Entertainment Private Limited, a wholly owned subsidiary of Star India Private Limited.</p>
+                        <h4 class="tech_stack" data-aos="flip-up">Tech Stack: HTML5 | CSS3 | JavaScript</h4>
+                        <p class="members_days" data-aos="flip-up">An individual project developed within a week.</p>
+                    </div>
+                    <div class="project_buttons">
+                        <button class="source_code_btn" id="hotstar_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                        <button class="live_btn" id="hotstar_live_btn">Live <i class="fa fa-play-circle-o"></i></button>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="youtube_clone">
+                <h1 class="project_title" data-aos="fade-right">Youtube Clone</h1>
+                <div>
+                    <div class="project_img_div">
+                        <img class="project_img"  src="images/youtube_ss.jpeg" alt="">
+                    </div>
+                    <div data-aos="flip-up">
+                        <p class="project_desc">YouTube is a free video sharing website that makes it easy to watch online videos. You can even create and upload your own videos to share with others.</p>
+                        <h4 class="tech_stack">Tech Stack: HTML5 | CSS3 | JavaScript</h4>
+                        <p class="members_days">An individual project developed within a week.</p>
+                    </div>
+        
+                    <div class="project_buttons">
+                        <button class="source_code_btn" id="youtube_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                        <button class="live_btn" id="youtube_live_btn">Live <i class="fa fa-play-circle-o"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div id="projectCards_3">
+            <div id="wrike_clone">
+                <h1 class="project_title" data-aos="fade-right">AuctionKing</h1>
+                <div>
+                    <div class="project_img_div">
+                        <img class="project_img" style="object-fit:cover;" src="https://cdn2.dontpayfull.com/media/logos/size/300x300/auctionking.com..png?v=20220728030452590120" alt="">
+                    </div>
+                    <div data-aos="flip-up">
+                        <p class="project_desc">Automation auction system is an online auction system, where buyer can buy the product and seller can sell the product. This system store the all data in this system. It is backend server which built with the help of the java, sql, jdbc and dao technologies. 
+                        </p>
+                        <h4 class="tech_stack">Tech Stack: Java | SQL | JDBC</h4>
+                        <p class="members_days">An individual console-based project developed within 5 days.</p>
+                    </div>
+        
+                    <div class="project_buttons">
+                        <button class="source_code_btn" id="auction_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                        <button class="live_btn" id="auction_live_btn">Presentation Video <i class="fa fa-play-circle-o"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div id="wrike_clone">
+                <h1 class="project_title" data-aos="fade-right">Online Vegetable Sales System</h1>
+                <div>
+                    <div class="project_img_div">
+                        <img class="project_img" style="object-fit:cover;" src="https://tse1.mm.bing.net/th?id=OIP.7tBCk4KuPW40C3tbqMHnqQHaHa&pid=Api&P=0" alt="">
+                    </div>
+                    <div data-aos="flip-up">
+                        <p class="project_desc">SabziBazar is a Online vegetable sales system that can provide services 
+                            to admins and applicants to fetch and see details along with to perform relevant operations 
+                            on the data as per the accessibility. 
+                        </p>
+                        <h4 class="tech_stack">Java | SQL | Spring Boot | JPA + Hibernate</h4>
+                        <p class="members_days">A collaborative project developed by a 5-member team within 5 days.</p>
+                    </div>
+        
+                    <div class="project_buttons">
+                        <button class="source_code_btn" id="sabziBazar_source_code_btn">Source Code <i class="fa fa-github"></i></button>
+                        <button class="live_btn" id="sabziBazar_live_btn">Presentation Video <i class="fa fa-play-circle-o"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="gitStatCals">
+        <h3>My GitHub Statistics & Calender</h3>
+    </div>
+    
+    
+    <section id="github-calender-section">
+        <div id="github-stats">
+            <br>
+            <div class="calendar" style="width:100%; margin-bottom: 50px;">    
+            </div>
+           
+            <div id="github_stats_container">
+                <div id="github_stats">
+                    <p><img src="https://github-readme-streak-stats.herokuapp.com/?user=Abhinav-Mourya&theme=dark" alt="Abhinav-Mourya" /></p>
+                    <p><img src="https://github-readme-stats.vercel.app/api?username=Abhinav-Mourya&show_icons=true&count_private=true&theme=merko" alt="Abhinav-Mourya"/></p>
+                </div>
+            </div>
+         </div>
+    </section>
+</section>
+
+
+
+<!-- Contact -->
+<div id="contact_top_section"></div>
+<section class="class_contact" id="contact">
+    <div class="section_container">
+        <h2 id="contact_title_h2">CONTACT</h2>
+    </div>
+    <div id="get_in_touch_container">
+        <div id="get_in_touch">
+            <h4>Starting a project? Stuck in a project? Want to make an existing one better? Struggling with technical concepts? <br>Please consider getting in touch with me to let me give my best.</h4>
+        </div>
+    </div>
+    
+    <div id="contactEmailAddress">
+        <div id="contactAndEmailAndAddress">
+            <div id="contactNo"><h4><i class='fas fa-mobile-alt'></i> +91 9109413344</h4></div>
+            <div id="emailId"><h4><i class='fas fa-envelope'></i> abhinavmourya22@gmail.com</h4></div>
+            <div id="address">
+                <h4><i class='fas fa-map-marker-alt'></i> Gwalior, Madhya Pradesh</h4>
+            </div>
+        </div>
+    
+    </div>
+
+    <div id="contact_iconHoler">
+        <ul>
+            <li><a href="https://www.linkedin.com/in/abhinav-mourya/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/Abhinav-Mourya" target="_blank"><i class="fa fa-github"></i></a></li>
+            <li><a href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="https://www.quora.com/profile/Abhinav-Mourya" target="_blank"><i class="fa fa-quora"></i></a></li>
+            <li><a href="https://www.instagram.com/abhinav_mourya/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+        </ul>
+    </div>
+    <div id="end_wish">
+        <h4>Wish you become your best version for no reason.<i class="far fa-smile"></i></h4>
+    </div>
+</section>
+  
+
 </body>
 </html>
+<script>
+    const body = document.querySelector("body");
+    const navbar = document.querySelector(".navbar");
+    const menuBtn = document.querySelector(".menu-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    const resumeBtn = document.querySelector(".resumeButton");
+    const resumeBtnOnNavbar = document.querySelector("#resumeBtnOnNavbar");
+    
+    resumeBtnOnNavbar.onclick = () =>{
+        window.open("https://drive.google.com/file/d/1yYDk5yqTUYPbUJJAvUCL5mSacnLMK3xR/view?usp=share_link", '_blank', 'noreferrer');
+    }
+    resumeBtn.onclick = ()=>{
+        window.open("https://drive.google.com/file/d/1yYDk5yqTUYPbUJJAvUCL5mSacnLMK3xR/view?usp=share_link", '_blank', 'noreferrer');
+    }
+    menuBtn.onclick = ()=>{
+      navbar.classList.add("show");
+      menuBtn.classList.add("hide");
+      body.classList.add("disabled");
+    }
+    cancelBtn.onclick = ()=>{
+      body.classList.remove("disabled");
+      navbar.classList.remove("show");
+      menuBtn.classList.remove("hide");
+    }
+  </script>
+  <script src="js/navbar.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/calendar.js"></script>
+<script>
+    GitHubCalendar(".calendar", "Abhinav-Mourya");
+    GitHubCalendar(".calendar", "Abhinav-Mourya", { responsive: true });
+</script>
+  
+
+
