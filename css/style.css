@@ -85,6 +85,7 @@
     left: 0;
     bottom: -10px;
     transition: 0.5s;
+    
 }
 .menu-list li:hover:after{
     width: 100%;
